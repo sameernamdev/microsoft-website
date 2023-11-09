@@ -1,0 +1,451 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color:white;
+  overflow-x: hidden;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+.row1 {
+  height: 75px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+
+.row1 .box1 {
+  display: flex;
+  /* border: 2px solid blue; */
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 .menu ul {
+  width: 500px;
+  list-style: none;
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+}
+
+.row1 .menu ul li {
+  font-size: 15px;
+
+}
+
+.row1 .loginbox ul {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 350px;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.row1 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginbox ul ion-icon {
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+/* ***********row 1 end****** */
+
+.row2 .box {
+  height: 450px;
+  /* background-color: black; */
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create:VP5-1920x600);
+  background-size: cover;
+}
+
+.row2 .imagetext {
+  height: 200px;
+  width: 480px;
+  /* background-color: rgb(166, 222, 222); */
+  position: relative;
+  top: 150px;
+  left: 120px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.row2 .box img{
+  width: 100%;
+}
+.row2 .box .imagetext .btn{
+  /* color: white; */
+  width: 380px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.row2 .imagetext h1 {
+  /* color: white; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 38px;
+}
+
+.row2 .imagetext button {
+  width: 150px;
+  font-size: 15px;
+  height: 40px;
+  margin-top: 15px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(46, 46, 202);
+}
+/* &**********row-2 end ******/
+.row3{
+  background-color: white;
+  height:100px;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.row3 .iconbox{
+  /* border: 2px solid blue; */
+  width: 250px;
+}
+.row3 .iconbox ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.row3 .iconbox ion-icon:hover{
+  border-style: dotted;
+}
+/* ****row 3 end**** */
+
+.row4{
+  display: flex;
+  justify-content: center;
+  background-color:white;
+  height: 200px;
+}
+.row4 .logoicon{
+  display: flex;
+}
+.row4 .boxes{
+  /* border: 2px solid red; */
+  width: 250px;
+  height: 80px;
+}
+.row4 .logobox ion-icon{
+  font-size: 40px;
+}
+.row4 .boxes .logobox{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.row4 .boxes p{
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  /* align-items: center; */
+}
+
+/* *****row 4 end***** */
+.row5{
+  /* height: 600px; */
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+}
+.row5 .container{
+  width: 90%;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.row5 .container .devicebox{
+  display: flex;
+  height: 400px;
+  background-color:white;
+  column-gap: 15px;
+}
+
+.row5 .container .devicebox .box {
+  flex: 1;
+  /* border: 2px solid black; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row5 .container .devicebox .box:hover{
+  cursor: pointer;
+}
+.row5 .container .devicebox .box img{
+  width: 100%;
+}
+.row5 .container .devicebox .box p{
+  font-size: 18px;
+}
+.row5 .container .devicebox .box .hello{
+  color: blue;
+  font-weight: bold;
+}
+.row5 .addbox{
+  background-color: yellow;
+  height: 500px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  background-image: url(images/add.png );
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.row5 .addbox .imagetext{
+  height: 250px;
+  width: 410px;
+  /* background-color: yellow; */
+  position: relative;
+  top: 150px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row5 .addbox .imagetext button{
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 2px;
+}
+/* ********busines******** */
+
+.row5 .business{
+  height: 550px;
+  /* background-color: yellow; */
+}
+.row5 .business .businessbox{
+  display: flex;
+  height: 400px;
+  background-color:white;
+  column-gap: 15px;
+  margin-top: 20px;
+}
+.row5 .business .businessbox .box{
+  flex: 1;
+  /* border: 2px solid black; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row5 .business .businessbox .box img{
+  width: 100%;
+}
+.row5 .business .businessbox .box .hello{
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* ****Ai back start***** */
+.row5 .Aiback{
+  height: 500px;
+  /* background-color: yellow; */
+  background-image: url(images/ai.png);
+  background-size: cover;
+}
+.row5 .Aiback .Aibox{
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  position: relative;
+  top: 90px;
+  left: 50px;
+}
+.row5 .Aitext{
+  padding-left: 20px;
+  height: 85%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+.row5 .Aitext button{
+  background-color: blue;
+  color: white;
+  height: 50px;
+  width: 70%;
+  font-size: 17px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+/* ********row5 end******** */
+.row6{
+  /* border: 2px solid red; */
+  margin-top:80px ;
+}
+.row6 .last{
+  margin-left: 60px;
+  display: flex;
+  width: 23%;
+  /* border: 2px solid blue; */
+  justify-content: space-around;
+  font-size: 20px;
+}
+.row6 .last ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 40%;
+  /* border: 2px solid black; */
+}
+.row6 .last ion-icon{
+  font-size: 30px;
+}
+.row6 .btop button{
+  height: 30px;
+  margin-left: 90%;
+  width: 120px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(192, 184, 184);
+  border-style: none;
+}
+.row6 .btop button ion-icon{
+  padding-right: 5px;
+}
+/* ****footerrow starts***** */
+.footerrow{
+  margin-top: 50px;
+  height: 440px;
+  background-color: whitesmoke;
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+.footerrow .footerrow1{
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.footerrow .footerrow1 .box1 ul{
+  list-style: none;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* width: 150px; */
+  height: 280px;
+  color: grey;
+}
+.footerrow .footerrow1 .box2 ul{
+  list-style: none;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* width: 200px; */
+  height: 230px;
+  color: grey;
+}
+.footerrow .footerrow1 .box3 ul{
+  list-style: none;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 400px;
+  color: grey;
+}
+.footerrow .footerrow1 .box4 ul{
+  list-style: none;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* width: 200px; */
+  height: 400px;
+  color: grey;
+}
+.footerrow .footerrow1 .box5 ul{
+  list-style: none;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* width: 200px; */
+  height: 400px;
+  color: grey;
+}
+.footerrow .footerrow1 .box6 ul{
+  list-style: none;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* width: 200px; */
+  height: 300px;
+  color: grey;
+}
+.footerrow .footerrow2{
+  height: 50px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+  /* margin-top: 5px; */
+}
+.footerrow .footerrow2 .last1{
+  display: flex;
+  /* border: 2px solid red; */
+  width: 400px;
+  font-size: 13px;
+  justify-content: space-around;
+  /* font-weight: lighter; */
+  color: grey;
+
+}
+.footerrow .footerrow2 .last1 ion-icon{
+  font-size: 20px;
+  /* border: 2px solid red; */
+  margin-right: 8px;
+}
+.footerrow .footerrow2 .last1 button{
+  margin-right: 8px;
+  border-radius: 20px;
+}
+.footerrow .footerrow2 .last2 {
+  padding-left: 80px;
+}
+.footerrow .footerrow2 .last2 ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  /* border: 2px solid red; */
+  width: 700px;
+  font-size: 13px;
+  font-weight: lighter;
+  /* padding-left: 70px; */
+  color: grey;
+}
